@@ -1,0 +1,65 @@
+# DIMENSION
+2
+
+# NX
+140
+
+# NY
+0
+
+# NZ
+1080
+
+# DELTAX
+1.000000
+
+# DELTAY
+1.000000
+
+# DELTAZ
+1.000000
+
+# XMIN
+1.000000
+
+# YMIN
+1.000000
+
+# ZMIN
+1.000000
+
+# NX_INVERSION
+140
+
+# NY_INVERSION
+0
+
+# NZ_INVERSION
+1080
+
+# DELTAX_INVERSION
+1.000000
+
+# DELTAY_INVERSION
+1.000000
+
+# DELTAZ_INVERSION
+1.000000
+
+# XMIN_INVERSION
+1.000000
+
+# YMIN_INVERSION
+1.000000
+
+# YMIN_INVERSION
+1.000000
+
+# Velocity file
+./Par/model2D.txt
+
+# Source parameter file
+./Par/source_par.txt
+
+# Receiver parameter file
+./Par/receiver_par.txt

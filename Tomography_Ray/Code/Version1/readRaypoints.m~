@@ -1,0 +1,21 @@
+function [T, Raypoints] = readRaypoints(RT_path)
+% read the computed raypoints file to obtain the travel time and the
+% coordinates of those points on the corresponding every single ray
+% Dongzhuo Li @ Stanford
+% May 21, 2016
+
+rayID = fopen([RT_path, '/Out/Raypoints.txt'], 'r');
+
+DATA = textscan(rayID, '%f%f%f%f');
+
+rayIndex = find(isnan(DATA{3}) ~= 1);
+
+T = DATA{4}(rayIndex);
+
+Raypoints = cell(length(rayIndex), 1);
+
+for inxRay = 1:length(rayIndex)-1
+    DATA{1}(DATA{4})
+    
+
+end

@@ -1,0 +1,2 @@
+Program('main', ['./Src/main.cpp', './Src/eikonal.cpp', './Src/read_parafile.cpp', './Src/vel_model_load.cpp',
+                 './Src/source_load.cpp', './Src/receiver_load.cpp', './Src/raytracing.cpp'], CPPFLAGS='-std=c++0x -O3')
